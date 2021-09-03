@@ -1,0 +1,10 @@
+uuid: cf5467ce-e25b-4500-865e-04a907ad7310
+langcode: en
+status: true
+dependencies: {  }
+id: text
+label: 'Text (formatted, long)'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

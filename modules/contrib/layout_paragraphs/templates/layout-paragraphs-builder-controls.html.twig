@@ -1,0 +1,8 @@
+  <div{{ attributes }}>
+    <a class="lpb-drag" href="#nav"><span>{{ 'Nav'|t }}</span></a>
+    <span class="lpb-controls-label">{{label}}</span>
+    <a class="lpb-up" href="#move-up"><span>{{ 'Move Up'|t }}</span></a>
+    <a class="lpb-down" href="#move-down"><span>{{ 'Move Down'|t }}</span></a>
+    {% if edit_attributes %}<a{{ edit_attributes }}><span>{{ 'Edit'|t }}</span></a>{% endif %}
+    {% if delete_attributes %}<a{{ delete_attributes }}><span>{{ 'Delete'|t }}</span></a>{% endif %}
+  </div>

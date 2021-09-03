@@ -1,0 +1,34 @@
+uuid: bc98d0fa-591b-41a4-ae95-cfe76cbb59b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.one_page.field_elementos
+    - node.type.one_page
+  module:
+    - layout_paragraphs
+    - user
+id: node.one_page.default
+targetEntityType: node
+bundle: one_page
+mode: default
+content:
+  field_elementos:
+    type: layout_paragraphs_builder
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+      empty_message: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

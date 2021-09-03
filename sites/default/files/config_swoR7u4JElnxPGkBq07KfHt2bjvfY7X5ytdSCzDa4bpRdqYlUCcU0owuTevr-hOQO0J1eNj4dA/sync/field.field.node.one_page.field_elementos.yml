@@ -1,0 +1,29 @@
+uuid: f2f878b6-00c5-449a-9060-74f2ea3a8238
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elementos
+    - node.type.one_page
+  module:
+    - entity_reference_revisions
+id: node.one_page.field_elementos
+field_name: field_elementos
+entity_type: node
+bundle: one_page
+label: Elementos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      from_library:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

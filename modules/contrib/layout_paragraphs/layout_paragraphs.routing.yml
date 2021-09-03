@@ -1,0 +1,96 @@
+layout_paragraphs.label_settings:
+  path: '/admin/config/content/layout_paragraphs/labels'
+  defaults:
+    _form: '\Drupal\layout_paragraphs\Form\LayoutParagraphsSettingsForm'
+    _title: 'Layout Paragraphs Labels'
+  requirements:
+    _permission: 'administer site configuration'
+
+layout_paragraphs.section_settings:
+  path: '/admin/config/content/layout_paragraphs/sections'
+  defaults:
+    _form: '\Drupal\layout_paragraphs\Form\LayoutParagraphsSectionsSettingsForm'
+    _title: 'Layout Paragraphs Sections'
+  requirements:
+    _permission: 'administer site configuration'
+
+layout_paragraphs.modal_settings:
+  path: '/admin/config/content/layout_paragraphs/modal-settings'
+  defaults:
+    _form: '\Drupal\layout_paragraphs\Form\LayoutParagraphsModalSettingsForm'
+    _title: 'Layout Paragraphs Modal Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+layout_paragraphs.builder.formatter:
+  path: '/layout-paragraphs-builder/{layout_paragraphs_layout}/formatter'
+  defaults:
+    _controller: '\Drupal\layout_paragraphs\Controller\LayoutParagraphsBuilderController::build'
+  options:
+    parameters:
+      layout_paragraphs_layout:
+        layout_paragraphs_layout_tempstore: TRUE
+  requirements:
+    _layout_paragraphs_builder_access: 'TRUE'
+
+layout_paragraphs.builder.choose_component:
+  path: '/layout-paragraphs-builder/{layout_paragraphs_layout}/choose-component'
+  defaults:
+    _controller: '\Drupal\layout_paragraphs\Controller\ChooseComponentController::list'
+  options:
+    parameters:
+      layout_paragraphs_layout:
+        layout_paragraphs_layout_tempstore: TRUE
+  requirements:
+    _layout_paragraphs_builder_access: 'TRUE'
+
+layout_paragraphs.builder.edit_item:
+  path: '/layout-paragraphs-builder/{layout_paragraphs_layout}/edit/{component_uuid}'
+  defaults:
+    _form: '\Drupal\layout_paragraphs\Form\EditComponentForm'
+    operation: 'update'
+  options:
+    parameters:
+      layout_paragraphs_layout:
+        layout_paragraphs_layout_tempstore: TRUE
+  requirements:
+    _layout_paragraphs_builder_access: 'TRUE'
+
+layout_paragraphs.builder.insert:
+  path: '/layout-paragraphs-builder/{layout_paragraphs_layout}/insert/{paragraph_type}'
+  defaults:
+    _controller: '\Drupal\layout_paragraphs\Controller\ComponentFormController::insertForm'
+    operation: 'create'
+  options:
+    parameters:
+      layout_paragraphs_layout:
+        layout_paragraphs_layout_tempstore: TRUE
+      paragraph_type:
+        type: entity:paragraphs_type
+  requirements:
+    _layout_paragraphs_builder_access: 'TRUE'
+
+layout_paragraphs.builder.delete_item:
+  path: '/layout-paragraphs-builder/{layout_paragraphs_layout}/delete/{component_uuid}'
+  defaults:
+    _form: '\Drupal\layout_paragraphs\Form\DeleteComponentForm'
+    operation: 'delete'
+  options:
+    parameters:
+      layout_paragraphs_layout:
+        layout_paragraphs_layout_tempstore: TRUE
+  requirements:
+    _layout_paragraphs_builder_access: 'TRUE'
+
+layout_paragraphs.builder.reorder:
+  path: '/layout-paragraphs-builder/{layout_paragraphs_layout}/reorder'
+  defaults:
+    _controller: '\Drupal\layout_paragraphs\Controller\ReorderController::build'
+  options:
+    parameters:
+      layout_paragraphs_layout:
+        layout_paragraphs_layout_tempstore: TRUE
+      paragraph_type:
+        type: entity:paragraphs_type
+  requirements:
+    _layout_paragraphs_builder_access: 'TRUE'

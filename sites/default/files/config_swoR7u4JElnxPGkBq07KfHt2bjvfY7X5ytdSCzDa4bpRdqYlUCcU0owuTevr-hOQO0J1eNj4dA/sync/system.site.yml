@@ -1,0 +1,14 @@
+uuid: 587886e8-5473-467d-8198-2dc14f1d7286
+name: Taoa
+mail: test@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

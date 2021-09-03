@@ -1,0 +1,22 @@
+uuid: e0428ac8-4aab-4f20-8fc7-1feaf0605078
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.one_page.field_elementos
+    - node.type.one_page
+  module:
+    - user
+id: node.one_page.teaser
+targetEntityType: node
+bundle: one_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_elementos: true
