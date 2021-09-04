@@ -1,0 +1,53 @@
+uuid: 0b40d372-1f6d-4aae-bc0f-b6fa415d9050
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_perfil
+    - paragraphs.paragraphs_type.icons
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.perfil
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: paragraph.perfil.field_item_perfil
+field_name: field_item_perfil
+entity_type: paragraph
+bundle: perfil
+label: Item
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image: image
+      icons: icons
+      text: text
+    target_bundles_drag_drop:
+      from_library:
+        weight: 7
+        enabled: false
+      icons:
+        enabled: true
+        weight: 9
+      image:
+        enabled: true
+        weight: 8
+      layout:
+        weight: 9
+        enabled: false
+      perfil:
+        weight: 10
+        enabled: false
+      slideshow:
+        weight: 11
+        enabled: false
+      text:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

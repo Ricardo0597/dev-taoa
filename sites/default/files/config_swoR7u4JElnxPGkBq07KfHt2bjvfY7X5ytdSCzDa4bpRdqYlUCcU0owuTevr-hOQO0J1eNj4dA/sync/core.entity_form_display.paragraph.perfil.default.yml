@@ -1,0 +1,29 @@
+uuid: e535f2d3-28d4-4754-aaa3-f9845352dd9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.perfil.field_item_perfil
+    - paragraphs.paragraphs_type.perfil
+  module:
+    - paragraphs
+id: paragraph.perfil.default
+targetEntityType: paragraph
+bundle: perfil
+mode: default
+content:
+  field_item_perfil:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

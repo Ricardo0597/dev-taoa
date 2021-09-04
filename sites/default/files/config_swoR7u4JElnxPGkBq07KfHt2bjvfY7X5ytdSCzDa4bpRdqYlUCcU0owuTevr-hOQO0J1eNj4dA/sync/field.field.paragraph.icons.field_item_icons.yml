@@ -1,0 +1,29 @@
+uuid: e77efe27-9bf4-4ca9-854b-ca77eaac549e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_icons
+    - media.type.image
+    - paragraphs.paragraphs_type.icons
+id: paragraph.icons.field_item_icons
+field_name: field_item_icons
+entity_type: paragraph
+bundle: icons
+label: Item
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

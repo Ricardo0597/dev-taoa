@@ -1,0 +1,10 @@
+uuid: 251df88c-c982-4704-95c5-094cdecfd76c
+langcode: en
+status: true
+dependencies: {  }
+id: slideshow
+label: Slideshow
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

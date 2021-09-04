@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b2ca67b4c7d95c7bbd08cda06ea888f45b746ce8',
+    'reference' => '1e388af518b92288959d5c60ad1e51b450332a33',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -658,6 +658,15 @@
         0 => '9.2.5',
       ),
     ),
+    'drupal/fontawesome' => 
+    array (
+      'pretty_version' => '2.19.0',
+      'version' => '2.19.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.19',
+    ),
     'drupal/forum' => 
     array (
       'replaced' => 
@@ -751,7 +760,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b2ca67b4c7d95c7bbd08cda06ea888f45b746ce8',
+      'reference' => '1e388af518b92288959d5c60ad1e51b450332a33',
     ),
     'drupal/link' => 
     array (

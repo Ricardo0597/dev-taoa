@@ -16,7 +16,7 @@ content:
   field_elementos:
     type: layout_paragraphs_builder
     weight: 101
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: ''

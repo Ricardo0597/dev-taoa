@@ -1,0 +1,23 @@
+uuid: bb275b04-0160-4bed-9fcf-d2fc3c0b00b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.font_awesome.field_item_font_awesome
+    - paragraphs.paragraphs_type.font_awesome
+  module:
+    - fontawesome
+id: paragraph.font_awesome.default
+targetEntityType: paragraph
+bundle: font_awesome
+mode: default
+content:
+  field_item_font_awesome:
+    weight: 0
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+hidden: {  }

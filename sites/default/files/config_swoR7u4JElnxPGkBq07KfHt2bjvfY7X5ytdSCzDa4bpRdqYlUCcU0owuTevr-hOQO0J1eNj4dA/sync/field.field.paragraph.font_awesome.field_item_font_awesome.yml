@@ -1,0 +1,21 @@
+uuid: 26393fbd-4dc2-4636-9110-e51a6e07ca94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_font_awesome
+    - paragraphs.paragraphs_type.font_awesome
+  module:
+    - fontawesome
+id: paragraph.font_awesome.field_item_font_awesome
+field_name: field_item_font_awesome
+entity_type: paragraph
+bundle: font_awesome
+label: Item
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon
