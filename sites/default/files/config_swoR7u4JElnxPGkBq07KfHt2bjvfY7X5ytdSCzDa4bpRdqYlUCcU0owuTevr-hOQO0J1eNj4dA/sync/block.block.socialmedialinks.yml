@@ -1,0 +1,129 @@
+uuid: 10d15869-5bb9-4fc7-9fdc-7d3343941b31
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - barrio_custom
+id: socialmedialinks
+theme: barrio_custom
+region: top_header_form
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-10'
+    github:
+      value: ''
+      description: ''
+      weight: '-9'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-8'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-7'
+    facebook:
+      value: taoacr
+      description: ''
+      weight: '-6'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-5'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-4'
+    instagram:
+      value: _taoa_
+      description: ''
+      weight: '-3'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-2'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-1'
+    xing:
+      value: ''
+      description: ''
+      weight: '0'
+    rss:
+      value: ''
+      description: ''
+      weight: '1'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '2'
+    youtube:
+      value: ''
+      description: ''
+      weight: '3'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '4'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '5'
+    pinterest:
+      value: taoacr
+      description: ''
+      weight: '6'
+    twitter:
+      value: ''
+      description: ''
+      weight: '7'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '8'
+    contact:
+      value: ''
+      description: ''
+      weight: '9'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '10'
+    behance:
+      value: ''
+      description: ''
+      weight: '11'
+    email:
+      value: ''
+      description: ''
+      weight: '12'
+    website:
+      value: ''
+      description: ''
+      weight: '13'
+  appearance:
+    orientation: v
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

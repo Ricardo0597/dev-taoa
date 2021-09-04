@@ -1,0 +1,25 @@
+uuid: c2c08e38-9943-4bb5-b581-9ff4898cfec5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7ccb21e6-bde8-4103-a500-4947239f1baf'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: relleno
+theme: barrio_custom
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'block_content:7ccb21e6-bde8-4103-a500-4947239f1baf'
+settings:
+  id: 'block_content:7ccb21e6-bde8-4103-a500-4947239f1baf'
+  label: Relleno
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

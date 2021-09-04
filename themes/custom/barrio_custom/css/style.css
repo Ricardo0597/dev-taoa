@@ -1,0 +1,29 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ @import url('http://fonts.cdnfonts.com/css/old-sans-black');
+
+.menu-lineal .navbar-nav {
+    display: block ruby;
+}
+
+.field.field--name-field-multimedia.field--type-entity-reference-revisions.field--label-hidden.field__items {
+    display: inline-block;
+}
+
+#block-barrio-custom-main-menu {
+    font-size: 1.0625rem;
+    font-family: 'OldSansBlack', sans-serif;
+}
+
+#block-barrio-custom-main-menu li {
+    margin-left: 2rem;
+}
+
+.menu-icon{
+    background-image: url(../asset_1-20.jpg);
+    background-size: cover;
+    height: 67px;
+    color: #f0f8ff00;
+}

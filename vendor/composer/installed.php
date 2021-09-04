@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '1e388af518b92288959d5c60ad1e51b450332a33',
+    'reference' => 'dae4d3a6fdaf9148a0497a7ed097b0615bd3acf2',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -258,6 +258,15 @@
       array (
         0 => '9.2.5',
       ),
+    ),
+    'drupal/bootstrap_barrio' => 
+    array (
+      'pretty_version' => '5.5.2',
+      'version' => '5.5.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5.5.2',
     ),
     'drupal/breakpoint' => 
     array (
@@ -760,7 +769,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '1e388af518b92288959d5c60ad1e51b450332a33',
+      'reference' => 'dae4d3a6fdaf9148a0497a7ed097b0615bd3acf2',
     ),
     'drupal/link' => 
     array (
@@ -768,6 +777,15 @@
       array (
         0 => '9.2.5',
       ),
+    ),
+    'drupal/link_attributes' => 
+    array (
+      'pretty_version' => '1.11.0',
+      'version' => '1.11.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.11',
     ),
     'drupal/locale' => 
     array (
@@ -952,6 +970,15 @@
       array (
         0 => '9.2.5',
       ),
+    ),
+    'drupal/social_media_links' => 
+    array (
+      'pretty_version' => '2.8.0',
+      'version' => '2.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.8',
     ),
     'drupal/standard' => 
     array (
@@ -1697,6 +1724,15 @@
       ),
       'reference' => '81cdac5536925c1c4b7b50aabc9ff6330b9eb5fc',
     ),
+    'twbs/bootstrap' => 
+    array (
+      'pretty_version' => 'v5.1.0',
+      'version' => '5.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f20fece3a8cdd0e76a42c2737524b7652bf54d26',
+    ),
     'twig/twig' => 
     array (
       'pretty_version' => 'v2.14.6',
@@ -1705,6 +1741,13 @@
       array (
       ),
       'reference' => '27e5cf2b05e3744accf39d4c68a3235d9966d260',
+    ),
+    'twitter/bootstrap' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v5.1.0',
+      ),
     ),
     'typo3/phar-stream-wrapper' => 
     array (
