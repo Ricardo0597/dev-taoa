@@ -27,3 +27,13 @@
     height: 67px;
     color: #f0f8ff00;
 }
+
+#navbar-top {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#navbar-main {
+    height: 152px;
+}

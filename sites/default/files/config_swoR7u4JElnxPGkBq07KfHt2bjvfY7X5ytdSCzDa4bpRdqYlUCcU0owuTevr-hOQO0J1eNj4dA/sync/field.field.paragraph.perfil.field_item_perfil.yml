@@ -6,6 +6,7 @@ dependencies:
     - field.storage.paragraph.field_item_perfil
     - paragraphs.paragraphs_type.icons
     - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.layout
     - paragraphs.paragraphs_type.perfil
     - paragraphs.paragraphs_type.text
   module:
@@ -27,8 +28,12 @@ settings:
     target_bundles:
       image: image
       icons: icons
+      layout: layout
       text: text
     target_bundles_drag_drop:
+      font_awesome:
+        weight: 9
+        enabled: false
       from_library:
         weight: 7
         enabled: false
@@ -39,8 +44,8 @@ settings:
         enabled: true
         weight: 8
       layout:
+        enabled: true
         weight: 9
-        enabled: false
       perfil:
         weight: 10
         enabled: false

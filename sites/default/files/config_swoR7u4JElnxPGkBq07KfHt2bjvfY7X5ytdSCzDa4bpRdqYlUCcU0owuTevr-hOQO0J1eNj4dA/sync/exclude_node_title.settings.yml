@@ -1,0 +1,16 @@
+nid_list: {  }
+translation_sync: true
+search: false
+type: hidden
+_core:
+  default_config_hash: 0yJNd4uWv8TzhYEPQBDiApPL2e8ar88kBmQrzDjNCqc
+content_types:
+  article: none
+  one_page: all
+  page: none
+content_type_modes:
+  article: {  }
+  one_page:
+    - full
+    - teaser
+  page: {  }

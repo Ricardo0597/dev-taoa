@@ -6,22 +6,20 @@ dependencies:
     - field.field.paragraph.perfil.field_item_perfil
     - paragraphs.paragraphs_type.perfil
   module:
-    - paragraphs
+    - layout_paragraphs
 id: paragraph.perfil.default
 targetEntityType: paragraph
 bundle: perfil
 mode: default
 content:
   field_item_perfil:
-    type: entity_reference_paragraphs
+    type: layout_paragraphs
     weight: 0
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
+      empty_message: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
     third_party_settings: {  }
     region: content
 hidden:
