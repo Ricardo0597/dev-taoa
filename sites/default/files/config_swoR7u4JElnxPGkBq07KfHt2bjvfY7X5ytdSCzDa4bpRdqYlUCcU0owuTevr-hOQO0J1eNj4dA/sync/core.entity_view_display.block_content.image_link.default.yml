@@ -1,0 +1,29 @@
+uuid: 29bc885e-c4b0-4549-ac7f-c3ac7ba33c1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_link
+    - field.field.block_content.image_link.field_image
+  module:
+    - linked_field
+id: block_content.image_link.default
+targetEntityType: block_content
+bundle: image_link
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'http://dev-taoa-app.lndo.site/'
+        advanced: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: 3754994e-c545-4f6f-aeae-ce62691a14da
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_link:a47b5d7d-cd14-4215-9d77-81560f3f3c94'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: logofooter
+theme: barrio_custom
+region: footer_fifth
+weight: -8
+provider: null
+plugin: 'block_content:a47b5d7d-cd14-4215-9d77-81560f3f3c94'
+settings:
+  id: 'block_content:a47b5d7d-cd14-4215-9d77-81560f3f3c94'
+  label: 'Logo footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

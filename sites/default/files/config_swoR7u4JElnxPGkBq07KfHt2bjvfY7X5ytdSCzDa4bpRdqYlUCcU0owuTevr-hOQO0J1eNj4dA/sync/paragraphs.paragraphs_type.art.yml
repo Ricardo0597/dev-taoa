@@ -1,0 +1,10 @@
+uuid: 20ba3886-0df2-4dc4-81a7-df6491e07d1b
+langcode: en
+status: true
+dependencies: {  }
+id: art
+label: Art
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

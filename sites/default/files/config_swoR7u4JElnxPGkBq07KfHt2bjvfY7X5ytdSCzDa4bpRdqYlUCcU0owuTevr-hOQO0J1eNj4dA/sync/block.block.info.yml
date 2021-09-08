@@ -1,0 +1,25 @@
+uuid: 5904c215-1762-49ae-af58-2620623a218a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c0ba36a0-52a1-4512-8c38-768b5961615b'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: info
+theme: barrio_custom
+region: footer_fifth
+weight: -7
+provider: null
+plugin: 'block_content:c0ba36a0-52a1-4512-8c38-768b5961615b'
+settings:
+  id: 'block_content:c0ba36a0-52a1-4512-8c38-768b5961615b'
+  label: Info
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

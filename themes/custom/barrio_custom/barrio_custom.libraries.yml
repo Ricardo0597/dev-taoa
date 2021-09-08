@@ -2,6 +2,10 @@ global-styling:
   version: VERSION
   js:
     js/global.js: {}
+    js/ScrollMagic.min.js: {}
+    js/animation.gsap.min.js: {}
+    js/TweenMax.min.js: {}
+    js/parallax.js: {}
   css:
     base:
       //fonts.cdnfonts.com/css/old-sans-black: {
@@ -11,6 +15,9 @@ global-styling:
     component:
       css/style.css: {}
       css/colors.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
 bootstrap:
   js:
     /libraries/popper.js/dist/umd/popper.min.js: {}

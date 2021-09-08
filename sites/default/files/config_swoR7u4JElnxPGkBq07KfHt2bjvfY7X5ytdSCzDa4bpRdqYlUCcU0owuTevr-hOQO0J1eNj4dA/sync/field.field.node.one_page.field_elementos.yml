@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.layout
     - paragraphs.paragraphs_type.perfil
     - paragraphs.paragraphs_type.slideshow
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.work
   module:
     - entity_reference_revisions
 id: node.one_page.field_elementos
@@ -27,8 +29,16 @@ settings:
     target_bundles:
       layout: layout
       slideshow: slideshow
+      text: text
       perfil: perfil
+      work: work
     target_bundles_drag_drop:
+      background_image:
+        weight: 11
+        enabled: false
+      font_awesome:
+        weight: 12
+        enabled: false
       from_library:
         weight: 2
         enabled: false
@@ -37,6 +47,9 @@ settings:
         enabled: false
       image:
         weight: 7
+        enabled: false
+      image_link:
+        weight: 17
         enabled: false
       layout:
         enabled: true
@@ -48,6 +61,9 @@ settings:
         enabled: true
         weight: 9
       text:
+        enabled: true
         weight: 10
-        enabled: false
+      work:
+        enabled: true
+        weight: 20
 field_type: entity_reference_revisions

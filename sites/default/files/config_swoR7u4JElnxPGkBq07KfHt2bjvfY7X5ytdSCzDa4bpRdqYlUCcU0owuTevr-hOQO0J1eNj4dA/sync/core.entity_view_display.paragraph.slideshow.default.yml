@@ -6,19 +6,23 @@ dependencies:
     - field.field.paragraph.slideshow.field_multimedia
     - paragraphs.paragraphs_type.slideshow
   module:
-    - entity_reference_revisions
+    - layout_paragraphs
 id: paragraph.slideshow.default
 targetEntityType: paragraph
 bundle: slideshow
 mode: default
 content:
   field_multimedia:
-    type: entity_reference_revisions_entity_view
+    type: layout_paragraphs_builder
     weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
+      empty_message: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
     third_party_settings: {  }
     region: content
 hidden: {  }

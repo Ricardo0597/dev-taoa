@@ -1,0 +1,8 @@
+uuid: 868daf50-3ebe-4c60-85ce-ee69662c049d
+langcode: en
+status: true
+dependencies: {  }
+id: image_link
+label: 'Image link'
+revision: 0
+description: ''

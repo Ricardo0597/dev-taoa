@@ -1,0 +1,24 @@
+uuid: 14e91425-69cd-492b-b6b0-71f42b94243e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slideshow
+  module:
+    - views
+  theme:
+    - barrio_custom
+id: views_block__slideshow_block_1
+theme: barrio_custom
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:slideshow-block_1'
+settings:
+  id: 'views_block:slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

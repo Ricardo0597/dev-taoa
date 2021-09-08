@@ -1,0 +1,23 @@
+uuid: 27b80b9a-237a-48dd-9be6-5f3d49ecd73b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_elementos_art
+    - paragraphs.paragraphs_type.art
+  module:
+    - entity_reference_revisions
+id: paragraph.art.field_elementos_art
+field_name: field_elementos_art
+entity_type: paragraph
+bundle: art
+label: Elementos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions

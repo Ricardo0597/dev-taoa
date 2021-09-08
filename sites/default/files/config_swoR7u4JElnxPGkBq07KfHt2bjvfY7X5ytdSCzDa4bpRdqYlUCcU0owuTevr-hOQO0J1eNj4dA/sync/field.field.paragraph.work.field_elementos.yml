@@ -1,0 +1,69 @@
+uuid: cdf714d5-4478-47a8-9b0c-ff9bae8fc36d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_elementos
+    - paragraphs.paragraphs_type.background_image
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.image_link
+    - paragraphs.paragraphs_type.layout
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.work
+  module:
+    - entity_reference_revisions
+id: paragraph.work.field_elementos
+field_name: field_elementos
+entity_type: paragraph
+bundle: work
+label: Elementos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      background_image: background_image
+      image: image
+      layout: layout
+      image_link: image_link
+      text: text
+    target_bundles_drag_drop:
+      background_image:
+        enabled: true
+        weight: 11
+      font_awesome:
+        weight: 12
+        enabled: false
+      from_library:
+        weight: 13
+        enabled: false
+      icons:
+        weight: 14
+        enabled: false
+      image:
+        enabled: true
+        weight: 15
+      image_link:
+        enabled: true
+        weight: 17
+      layout:
+        enabled: true
+        weight: 16
+      perfil:
+        weight: 17
+        enabled: false
+      slideshow:
+        weight: 18
+        enabled: false
+      text:
+        enabled: true
+        weight: 19
+      work:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

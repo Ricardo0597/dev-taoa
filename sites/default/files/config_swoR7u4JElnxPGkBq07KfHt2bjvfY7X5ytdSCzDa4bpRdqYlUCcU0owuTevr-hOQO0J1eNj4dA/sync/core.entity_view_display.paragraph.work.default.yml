@@ -1,0 +1,28 @@
+uuid: 9d5700a3-1639-4e3d-8b6d-eb1f3e4fc39f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.work.field_elementos
+    - paragraphs.paragraphs_type.work
+  module:
+    - layout_paragraphs
+id: paragraph.work.default
+targetEntityType: paragraph
+bundle: work
+mode: default
+content:
+  field_elementos:
+    type: layout_paragraphs_builder
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+      empty_message: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+    third_party_settings: {  }
+    region: content
+hidden: {  }

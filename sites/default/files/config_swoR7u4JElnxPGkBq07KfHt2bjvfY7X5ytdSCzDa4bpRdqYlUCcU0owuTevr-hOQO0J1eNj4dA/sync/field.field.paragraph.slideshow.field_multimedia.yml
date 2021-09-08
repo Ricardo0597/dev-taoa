@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_multimedia
+    - paragraphs.paragraphs_type.background_image
     - paragraphs.paragraphs_type.font_awesome
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.slideshow
@@ -27,8 +28,12 @@ settings:
     target_bundles:
       image: image
       font_awesome: font_awesome
+      background_image: background_image
       text: text
     target_bundles_drag_drop:
+      background_image:
+        enabled: true
+        weight: 10
       font_awesome:
         enabled: true
         weight: 9

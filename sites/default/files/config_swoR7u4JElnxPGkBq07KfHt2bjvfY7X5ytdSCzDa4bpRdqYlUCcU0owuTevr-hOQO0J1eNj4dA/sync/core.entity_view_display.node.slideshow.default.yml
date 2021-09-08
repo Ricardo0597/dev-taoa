@@ -1,0 +1,58 @@
+uuid: c3805599-868f-4e6f-9719-eff1afe9d4eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slideshow.body
+    - field.field.node.slideshow.field_background_image
+    - field.field.node.slideshow.field_icon
+    - field.field.node.slideshow.field_image_other
+    - node.type.slideshow
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.slideshow.default
+targetEntityType: node
+bundle: slideshow
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_background_image:
+    type: entity_reference_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_icon:
+    weight: 104
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+  field_image_other:
+    type: entity_reference_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

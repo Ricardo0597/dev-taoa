@@ -1,6 +1,6 @@
 uuid: 18f1a2ed-ad67-4ed4-bbcd-10e82db8922b
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -13,7 +13,7 @@ _core:
 id: barrio_custom_footer
 theme: barrio_custom
 region: footer_fifth
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

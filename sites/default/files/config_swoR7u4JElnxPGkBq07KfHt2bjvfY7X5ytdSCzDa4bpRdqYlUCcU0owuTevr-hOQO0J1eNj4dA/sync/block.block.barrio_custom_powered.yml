@@ -1,6 +1,6 @@
 uuid: 7b4e439b-0e76-43b8-9b72-8dd7985a9d49
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: barrio_custom_powered
 theme: barrio_custom
 region: footer_fifth
-weight: 10
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

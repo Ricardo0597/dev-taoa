@@ -1,0 +1,30 @@
+uuid: bb49772b-0f05-483d-a712-f4726aef9a2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - system
+    - webform
+  theme:
+    - barrio_custom
+id: webform
+theme: barrio_custom
+region: featured_bottom_second
+weight: -10
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false

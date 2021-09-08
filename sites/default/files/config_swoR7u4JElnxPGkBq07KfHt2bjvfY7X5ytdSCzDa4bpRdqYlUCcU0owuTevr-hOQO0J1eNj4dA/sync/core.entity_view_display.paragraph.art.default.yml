@@ -1,0 +1,24 @@
+uuid: d24b7014-0905-4e84-8752-629b0bb9171b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.art.field_elementos_art
+    - paragraphs.paragraphs_type.art
+  module:
+    - entity_reference_revisions
+id: paragraph.art.default
+targetEntityType: paragraph
+bundle: art
+mode: default
+content:
+  field_elementos_art:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

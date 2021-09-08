@@ -1,0 +1,10 @@
+uuid: 5a4e50cb-fc3b-469f-bbbd-aeed4917ae05
+langcode: en
+status: true
+dependencies: {  }
+id: work
+label: Work
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
